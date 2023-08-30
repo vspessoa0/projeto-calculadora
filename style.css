@@ -24,13 +24,13 @@
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.596);
 }
 
-form .display{
+form .display {
     display: flex;
     justify-content: flex-end;
     margin: 20px 0;
 }
 
-form .display input{
+form .display input {
     text-align: right;
     flex: 1;
     font-size: 45px;
@@ -54,15 +54,18 @@ form .display input{
     box-shadow: -1px -1px 6px rgba(0, 0, 0, 0.61);
 }
 
-.calculator form input:active{
+.calculator form input:active {
     background-color: rgba(245, 245, 245, 0.562);
 }
 
-form input.equal{
+form input.equal {
     width: 145px;
 }
 
-form input.ac{
+form input.ac {
     width: 145px;
 }
 
+form input.operator {
+    color: rgb(31, 221, 212);
+}
